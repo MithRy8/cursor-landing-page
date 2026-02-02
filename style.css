@@ -23,19 +23,20 @@ body {
 
 .navbar {
   position: fixed;
-  border: 2px solid #fff;
+  /* border: 2px solid #fff; */
   width: 100%;
   background-color: #14120b;
 }
 
 .nav-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   height: 56px;
   align-items: center;
   margin: 0 auto;
   padding: 0 24px;
+  max-width: 90%;
 }
 
 .logo {
@@ -58,6 +59,36 @@ body {
   color: var(--text-primary);
   font-size: 16px;
 }
-.nav-links a:hover{
-    color: var(--text-secondary) 
+.nav-links a:hover {
+  color: var(--text-secondary);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 4px 10px;
+}
+
+.btn-primary {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+.btn-primary:hover {
+  background-color: #dbdada;
+}
+
+.btn-secondary {
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+  border: 1px solid #333;
+}
+
+.btn-secondary:hover {
+  background-color: #1b1b1b;
 }
