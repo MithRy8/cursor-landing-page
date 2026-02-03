@@ -2,7 +2,9 @@
   --bg-primary: #14120b;
   --text-primary: #ededed;
   --text-secondary: #edededc4;
+  --logos-primary: #1B1913;
   --container-width: 1440px;
+
 }
 
 * {
@@ -150,4 +152,40 @@ body {
   height: auto;
   display: block;
 
+}
+
+.trusted-section {
+  padding: 5px 10px;
+  margin-bottom: 20px;
+
+}
+
+.trusted-text {
+  text-align: center;
+  color: var(--text-primary);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 28px;
+
+}
+
+.logos-flex {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  background-color: var(--logos-primary);
+  border: 1px solid #222;
+  border-radius: 6px;
+  padding: 32px 48px;
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 18px;
 }
