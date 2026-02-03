@@ -290,7 +290,8 @@ body {
 
 .footer-col a{
   color: var(--text-primary);
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .footer-col a:hover {
