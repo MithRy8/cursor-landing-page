@@ -1,8 +1,8 @@
 :root {
-  --bg-primary: #000;
+  --bg-primary: #14120b;
   --text-primary: #ededed;
   --text-secondary: #edededc4;
-  --container-width: 1200px;
+  --container-width: 1440px;
 }
 
 * {
@@ -16,12 +16,12 @@ a {
   color: inherit;
 }
 
-/* .container {
+.container {
   max-width: var(--container-width);
   margin: 0 auto;
   padding: 0 24px;
   width: 100%;
-} */
+}
 
 body {
   background-color: var(--bg-primary);
@@ -52,7 +52,8 @@ body {
   display: flex;
   align-items: center;
   gap: 4px;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .logo-img {
@@ -102,16 +103,51 @@ body {
   background-color: #1b1b1b;
 }
 
+.btn-large {
+  padding: 12px 32px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
 .hero-section {
-  margin-top: 80px ;
-  padding-top: 200px;
+  margin-top: 80px;
+  padding-top: 100px;
   padding-bottom: 80px;
   text-align: left;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 
 .hero-container {
   display: flex;
   flex-direction: column;
   align-items: start;
+  gap: 32px;
+}
+
+.hero-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.hero-cta-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 40px;
+
+
+}
+.hero-image-wrapper {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 5px;
+
+}
+
+.hero-img-content {
+  width: 100%;
+  height: auto;
+  display: block;
+
 }
