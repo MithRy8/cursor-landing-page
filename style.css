@@ -2,10 +2,9 @@
   --bg-primary: #14120b;
   --text-primary: #ededed;
   --text-secondary: #edededc4;
-  --logos-primary: #1B1913;
+  --logos-primary: #1b1913;
   --container-width: 1440px;
-  --feature-primary: #1B1913
-
+  --feature-primary: #1b1913;
 }
 
 * {
@@ -138,27 +137,22 @@ body {
   align-items: center;
   gap: 12px;
   margin-bottom: 40px;
-
-
 }
 .hero-image-wrapper {
   width: 100%;
   max-width: 100%;
   margin-top: 5px;
-
 }
 
 .hero-img-content {
   width: 100%;
   height: auto;
   display: block;
-
 }
 
 .trusted-section {
   padding: 5px 10px;
   margin-bottom: 20px;
-
 }
 
 .trusted-text {
@@ -167,7 +161,6 @@ body {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 28px;
-
 }
 
 .logos-flex {
@@ -194,7 +187,7 @@ body {
 .features-section {
   padding: 40px 0;
   background-color: var(--feature-primary);
-  margin: 70px 40px 30px 40px ;
+  margin: 70px 40px 30px 40px;
   padding-bottom: 20px;
 }
 
@@ -203,33 +196,31 @@ body {
   align-items: center;
   gap: 80px;
   margin-bottom: 20px;
-
 }
 
 .feature-text {
   flex: 1;
 }
 .feature-text h3 {
-    font-size: 22px;
-    /* margin-bottom: 24px; */
+  font-size: 22px;
+  /* margin-bottom: 24px; */
 }
 
 .feature-text p {
-    font-size: 18px;
-    color: var(--text-secondary);
-    line-height: 1.6;
-    margin-bottom: 24px;
+  font-size: 18px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 24px;
 }
 
 .feature-link {
-  color: #F44E00;
+  color: #f44e00;
   font-weight: 600;
   font-size: 18px;
-
 }
 
 .feature-link:hover {
-  color: #ec4b00c9
+  color: #ec4b00c9;
 }
 
 .feature-image {
@@ -241,8 +232,8 @@ body {
 }
 
 .cta-section {
-    text-align: center;
-    padding: 160px 0;
+  text-align: center;
+  padding: 120px 0;
 }
 
 .cta-section h1 {
@@ -252,7 +243,7 @@ body {
 
 .footer-section {
   padding: 80px 0 40px 0;
-  background-color: #1B1913;
+  background-color: #1b1913;
   font-size: 14px;
 }
 
@@ -270,25 +261,23 @@ body {
   flex-direction: column;
   gap: 16px;
   min-width: 120px;
-
 }
 
-.footer-col h4{
+.footer-col h4 {
   color: #888;
-  font-size:14px ;
+  font-size: 14px;
   font-weight: 500;
   margin: 0;
-
 }
 
-.footer-col ul{
+.footer-col ul {
   display: flex;
   flex-direction: column;
   gap: 12px;
   list-style: none;
 }
 
-.footer-col a{
+.footer-col a {
   color: var(--text-primary);
   font-size: 14px;
   font-weight: 500;
@@ -300,12 +289,11 @@ body {
 
 .footer-bottom {
   display: flex;
-  justify-content: space-between
-  
+  justify-content: space-between;
 }
 
 .lang-btn {
-  background-color: #26241E;
+  background-color: #26241e;
   color: var(--text-primary);
 }
 
@@ -313,15 +301,14 @@ body {
   color: var(--text-secondary);
 }
 
-
 .testimonial-section {
-  padding: 120px 0;
+  padding: 80px 0;
 }
 
 .section-title {
-    font-size: 32px;
-    margin-bottom: 48px;
-    text-align: center;
+  font-size: 32px;
+  margin-bottom: 48px;
+  text-align: center;
 }
 
 .testimonial-flex {
@@ -332,32 +319,30 @@ body {
 
 .testimonial-card {
   flex: 1 1 320px;
-  min-width: 400px;
+  min-width: 350px;
   background-color: var(--logos-primary);
   border: 1px solid #14120b;
   padding: 32px;
   border-radius: 8px;
-   display: flex;
+  display: flex;
   flex-direction: column;
-  
 }
 
-
 .quote {
-    font-size: 16px;
-    margin-bottom: 24px;
-    line-height: 1.6;
-    color: #e0e0e0;
+  font-size: 16px;
+  margin-bottom: 24px;
+  line-height: 1.6;
+  color: #e0e0e0;
 }
 
 .author .name {
-    display: block;
-    font-weight: 600;
+  display: block;
+  font-weight: 600;
 }
 
 .author .role {
-    font-size: 14px;
-    color: var(--text-secondary);
+  font-size: 14px;
+  color: var(--text-secondary);
 }
 
 .testimonial-celeb {
@@ -365,7 +350,7 @@ body {
   align-items: center;
   gap: 12px;
   margin-top: auto;
-   padding-top: 72px;
+  padding-top: 72px;
 }
 
 .testimonial-celeb img {
